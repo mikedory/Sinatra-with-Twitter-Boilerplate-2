@@ -33,3 +33,4 @@ components/
 
 # Sass(y)
 .sass-cache
+static/css/style.css
