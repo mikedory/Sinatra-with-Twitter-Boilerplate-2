@@ -27,3 +27,6 @@ doc/
 
 # I fricking hate DS Store files
 .DS_Store
+
+# Bower
+components/
