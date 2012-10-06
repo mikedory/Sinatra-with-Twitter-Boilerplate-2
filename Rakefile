@@ -25,7 +25,7 @@ namespace :remote do
         sh 'sass --update ./static/css/style.scss:static/css/style.css'
     end    
 
-    desc 'serve on heroku'
+    desc 'serve remotely'
     task :serve => [:sass] do
         sh 'bundle exec thin start -p $PORT -e $RACK_ENV'
     end
