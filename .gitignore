@@ -30,3 +30,6 @@ doc/
 
 # Bower
 components/
+
+# Sass(y)
+.sass-cache
