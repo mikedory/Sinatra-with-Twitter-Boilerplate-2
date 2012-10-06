@@ -14,6 +14,7 @@ set :public_folder, File.dirname(__FILE__) + '/static'
 # declare our handlers
 get '/' do
   liquid :index, :locals => { 
-    :title => 'hi!' 
+    :title => 'hi!',
+    :heading => 'Why, hello there!'
   }
 end
