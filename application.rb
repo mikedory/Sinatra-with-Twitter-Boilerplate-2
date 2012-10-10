@@ -9,7 +9,7 @@ require 'maruku'
 require 'liquid'
 
 # configure things as desired
-set :public_folder, File.dirname(__FILE__) + '/static'
+# set :public_folder, File.dirname(__FILE__) + '/static'
 
 # declare our handlers
 get '/' do
